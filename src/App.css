@@ -1,0 +1,14 @@
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.058);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}
+
+/* Remove default margins/padding on root */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
